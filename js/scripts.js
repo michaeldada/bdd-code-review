@@ -1,6 +1,7 @@
+//Business Logic
 var countUp = function(countTo){
   var result = [];
-    for(var i = 1; i <= countTo; i++){
+  for(var i = 1; i <= countTo; i++){
       var index = result.indexOf(i);
       if(i % 15 === 0) {
         result.splice(index, 0);
@@ -13,8 +14,22 @@ var countUp = function(countTo){
         result.push('ping');
       }else{
         result.push(i);
-        }
       }
+  }
 
-    return result;
+  return result;
 };
+
+//User Interface Logic
+$(document).ready(function(){
+  $("#userInput").submit(function(event){
+    $("#output").empty();
+    var countTo = parseInt($("input#countTo").val());
+    var output = countUp(countTo);
+
+    output.forEach(function(item){
+      $("#output").append('<li class="listItem">' + item + '</li>');
+    });
+    event.preventDefault();
+  });
+});
