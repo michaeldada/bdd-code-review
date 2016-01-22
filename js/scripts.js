@@ -28,7 +28,7 @@ $(document).ready(function(){
     var output = countUp(countTo);
 
     output.forEach(function(item){
-      $("#output").append('<li class="listItem">' + item + '</li>');
+      $("#output").append('<li>' + item + '</li>');
     });
     event.preventDefault();
   });
