@@ -9,12 +9,10 @@ var countUp = function(countTo){
         result.splice(index, 0);
         result.push('pong');
       }else if(i % 3 === 0) {
-      result.splice(index, 0);
-      result.push('ping');
+        result.splice(index, 0);
+        result.push('ping');
       }else{
-
-
-      result.push(i);
+        result.push(i);
         }
       }
 
