@@ -1,37 +1,39 @@
-# _{Application Name}_
+# _Ping-Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application will take a number from a user and returns a range of numbers from 1 to the chosen number with certain 'fun' exceptions 01/22/2016_
 
-#### By _**{List of contributors}**_
+#### By _**Michael Dada**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application will take a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:_
+
+* _Numbers divisible by 3 are replaced with "ping"_
+* _Numbers divisible by 5 are replaced with "pong"_
+* _Numbers divisible by 15 are replaced with "pingpong"_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open index.html in your browser
+* _Enter a number into the field
+* _Click the button labeled 'Ping Pong!'
+* _Profit!
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact me with comments or questions at mail.michaeldada@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_JavaScript/jQuery for logic, mocha/chai for testing_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*_MIT License_*
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Michael Dada_**
